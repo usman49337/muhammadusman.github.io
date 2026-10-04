@@ -471,11 +471,12 @@
                                         <form action="https://api.web3forms.com/submit" method="POST">
                                             <input type="hidden" name="access_key" value="aaa0f1bf-9fd2-45f7-adf1-4739718baa06">
                                             <input type="hidden" name="subject" value="New Portfolio Contact Message">
+                                            <input type="hidden" name="redirect" value="https://yourdomain.com/index.html">
                                             <input type="checkbox" name="botcheck" style="display:none;">
                                             <div class="row g-3">
                                                 <div class="col-md-6">
                                                     <label class="form-label text-secondary">Your Name</label>
-                                                    <input type="text" class="form-control bg-transparent text-light border-secondary" name="name" required>
+                                                    <input type="text"class="form-control bg-transparent text-light border-secondary"name="name"required>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <label class="form-label text-secondary">Email Address</label>
@@ -483,12 +484,11 @@
                                                 </div>
                                                 <div class="col-12">
                                                     <label class="form-label text-secondary">Subject</label>
-                                                    <input type="text"class="form-control bg-transparent text-light border-secondary" name="subject"required>
+                                                    <input type="text"class="form-control bg-transparent text-light border-secondary"name="user_subject"required>
                                                 </div>
                                                 <div class="col-12">
                                                     <label class="form-label text-secondary">Project Details</label>
-                                                    <textarea class="form-control bg-transparent text-light border-secondary"
-                                                    name="message"rows="4"required></textarea>
+                                                    <textarea class="form-control bg-transparent text-light border-secondary"name="message"rows="4"required></textarea>
                                                 </div>
                                                 <div class="col-12">
                                                     <button type="submit" class="btn btn-info text-dark px-4 py-2"><i class="bi bi-send-fill me-2"></i>Send Message</button>
